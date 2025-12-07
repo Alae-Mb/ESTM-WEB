@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -27,8 +28,15 @@ export default function Navbar() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
         >
-          <Link href="/" className="text-2xl font-bold text-blue-700 dark:text-blue-400">
-            ESTM
+          <Link href="/" className="inline-flex items-center">
+            <Image
+              src="/icons/mainLogo.png"
+              alt="ESTM logo"
+              width={240}
+              height={240}
+              priority={true}
+            />
+            <span className="sr-only">ESTM</span>
           </Link>
         </motion.div>
 

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function CampusPreview() {
   return (
@@ -14,7 +15,16 @@ export default function CampusPreview() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <div className="aspect-video bg-gradient-to-br from-blue-400 to-blue-600 dark:from-blue-900 dark:to-blue-700 rounded-lg" />
+            <div className="aspect-video rounded-lg overflow-hidden">
+              <Image
+                src="/images/hero/est-meknes-campus.jpeg"
+                alt="Campus ESTM Meknès"
+                width={1200}
+                height={675}
+                className="w-full h-full object-cover"
+                priority
+              />
+            </div>
           </motion.div>
 
           <motion.div
