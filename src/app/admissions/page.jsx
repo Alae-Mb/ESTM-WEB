@@ -36,9 +36,9 @@ export default function AdmissionsPage() {
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: idx * 0.1 }}
-                  className="flex items-center p-4 bg-blue-50 dark:bg-gray-800 rounded-lg"
+                    className="flex items-center p-4 bg-site dark:bg-gray-800 rounded-lg"
                 >
-                  <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                    <div className="w-6 h-6 bg-royal rounded-full flex items-center justify-center mr-4 flex-shrink-0">
                     <span className="text-white font-bold text-sm">✓</span>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">{req}</p>
@@ -57,7 +57,7 @@ export default function AdmissionsPage() {
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Remplissez notre formulaire de candidature en ligne avec vos informations personnelles et académiques. Vous serez contacté pour les étapes suivantes du processus d'admission.
               </p>
-              <button className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold">
+              <button className="px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold">
                 Postuler Maintenant
               </button>
             </motion.div>

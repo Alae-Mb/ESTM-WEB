@@ -44,7 +44,7 @@ export default function CampusPreview() {
             </p>
             <Link
               href="/campus-life"
-              className="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+              className="inline-block px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold"
             >
               Explore la vie sur le campus
             </Link>

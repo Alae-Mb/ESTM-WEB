@@ -5,3 +5,30 @@
 html, body {
   scroll-behavior: smooth;
 }
+
+/* Site color palette */
+:root {
+  --color-primary-dark: #0A2540; /* Bleu foncé */
+  --color-royal: #2563EB;       /* Bleu royal */
+  --color-accent: #FBBF24;      /* Or / Jaune prestige */
+  --color-bg: #F9FAFB;          /* Blanc pur */
+  --color-gray-modern: #1F2937; /* Gris moderne */
+  --color-royal-light: #60a5fa; /* lighter royal for dark mode usage */
+}
+
+@layer utilities {
+  .bg-royal { background-color: var(--color-royal) !important; }
+  .hover\:bg-primary-dark:hover { background-color: var(--color-primary-dark) !important; }
+  .bg-accent { background-color: var(--color-accent) !important; }
+  .text-royal { color: var(--color-royal) !important; }
+  .text-accent { color: var(--color-accent) !important; }
+  .bg-site { background-color: var(--color-bg) !important; }
+  .text-gray-modern { color: var(--color-gray-modern) !important; }
+  .text-royal-light { color: var(--color-royal-light) !important; }
+  .hover\:bg-royal:hover { background-color: var(--color-royal) !important; }
+  .focus\:ring-royal:focus { box-shadow: 0 0 0 4px rgba(37,99,235,0.15); }
+}
+
+/* Dark-mode helpers for the custom classes */
+.dark .text-royal-light { color: var(--color-royal-light) !important; }
+.dark .bg-site { background-color: #0b1220 !important; }

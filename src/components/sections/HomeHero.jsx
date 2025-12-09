@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HomeHero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 pt-24">
+    <section className="min-h-screen flex items-center justify-center bg-site dark:bg-gray-900 pt-24">
       <div className="max-w-7xl mx-auto px-6 py-20 text-center">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,7 @@ export default function HomeHero() {
         >
           <Link
             href="/admissions"
-            className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+            className="px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold"
           >
             Candidatures
           </Link>

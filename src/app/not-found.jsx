@@ -5,14 +5,14 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 pt-24">
+    <div className="min-h-screen flex items-center justify-center bg-site dark:bg-gray-900 pt-24">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}
         className="text-center px-6"
       >
-        <div className="text-8xl font-bold text-blue-600 dark:text-blue-400 mb-4">
+        <div className="text-8xl font-bold text-royal dark:text-royal-light mb-4">
           404
         </div>
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -23,7 +23,7 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
-          className="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+          className="inline-block px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold"
         >
           Retour à l'Accueil
         </Link>

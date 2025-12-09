@@ -63,7 +63,7 @@ export default function DepartmentsGrid() {
                       {dept.description}
                     </p>
                   </div>
-                  <div className="mt-4 text-blue-600 dark:text-blue-400 font-semibold">
+                  <div className="mt-4 text-royal dark:text-royal-light font-semibold">
                     En savoir plus →
                   </div>
                 </div>

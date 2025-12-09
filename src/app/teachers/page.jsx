@@ -53,7 +53,7 @@ export default function TeachersPage() {
             {teachers.map((teacher, idx) => (
               <AnimatedCard key={teacher.id} delay={idx * 0.1}>
                 <div className="text-center">
-                  <div className="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mx-auto mb-4" />
+                  <div className="w-20 h-20 bg-gradient-to-br from-[#2563EB] to-[#0A2540] rounded-full mx-auto mb-4" />
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white">
                     {teacher.name}
                   </h3>

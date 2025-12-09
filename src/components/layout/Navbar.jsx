@@ -51,7 +51,7 @@ export default function Navbar() {
             >
               <Link 
                 href={link.href}
-                className="text-gray-700 dark:text-gray-200 hover:text-blue-600 transition"
+                className="text-gray-700 dark:text-gray-200 hover:text-royal transition"
               >
                 {link.label}
               </Link>
@@ -81,7 +81,7 @@ export default function Navbar() {
               <Link 
                 key={idx} 
                 href={link.href}
-                className="text-gray-700 dark:text-gray-200 hover:text-blue-600 transition"
+                className="text-gray-700 dark:text-gray-200 hover:text-royal transition"
                 onClick={() => setOpen(false)}
               >
                 {link.label}

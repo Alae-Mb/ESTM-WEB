@@ -47,7 +47,7 @@ export default function EventsSection() {
           {events.map((event, idx) => (
             <AnimatedCard key={event.id} delay={idx * 0.1}>
               <div className="h-full flex flex-col">
-                <span className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-2">
+                <span className="text-sm font-semibold text-royal dark:text-royal-light mb-2">
                   {event.date}
                 </span>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">

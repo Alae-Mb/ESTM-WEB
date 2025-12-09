@@ -36,7 +36,7 @@ export default function GalleryPage() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ delay: idx * 0.1 }}
                   viewport={{ once: true }}
-                  className="aspect-square bg-gradient-to-br from-blue-300 to-blue-500 dark:from-gray-700 dark:to-gray-600 rounded-lg flex items-center justify-center cursor-pointer hover:shadow-lg transition-shadow"
+                  className="aspect-square bg-gradient-to-br from-[#2563EB] to-[#0A2540] dark:from-gray-700 dark:to-gray-600 rounded-lg flex items-center justify-center cursor-pointer hover:shadow-lg transition-shadow"
                 >
                   <p className="text-white font-semibold text-lg">
                     {image.category}

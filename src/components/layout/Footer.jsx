@@ -47,13 +47,13 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             {/* Brand */}
-            <motion.div
+              <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-blue-400 mb-4">ESTM</h3>
+              <h3 className="text-2xl font-bold text-royal-light mb-4">ESTM</h3>
               <p className="text-gray-400">
                 École Supérieure de Technologie de Meknès
               </p>
@@ -74,7 +74,7 @@ export default function Footer() {
                     <li key={linkIdx}>
                       <Link
                         href={link.href}
-                        className="text-gray-400 hover:text-blue-400 transition"
+                        className="text-gray-400 hover:text-royal-light transition"
                       >
                         {link.label}
                       </Link>
@@ -95,15 +95,15 @@ export default function Footer() {
           >
             <div className="grid md:grid-cols-3 gap-6">
               <div className="flex items-center gap-3">
-                <MapPin className="w-5 h-5 text-blue-400" />
+                <MapPin className="w-5 h-5 text-royal-light" />
                 <span className="text-gray-400">ESTM, Meknès, Maroc</span>
               </div>
               <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-blue-400" />
+                <Phone className="w-5 h-5 text-royal-light" />
                 <span className="text-gray-400">+212 5XX XXX XXX</span>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-blue-400" />
+                <Mail className="w-5 h-5 text-royal-light" />
                 <span className="text-gray-400">contact@estm.ac.ma</span>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Footer() {
                   key={idx}
                   href={social.href}
                   aria-label={social.label}
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition"
+                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-royal hover:text-white transition"
                 >
                   <Icon className="w-5 h-5" />
                 </a>
@@ -147,10 +147,10 @@ export default function Footer() {
             © {currentYear} ESTM Meknès. Tous droits réservés.
           </p>
           <div className="flex gap-6">
-            <Link href="#" className="text-gray-400 hover:text-blue-400 text-sm transition">
+            <Link href="#" className="text-gray-400 hover:text-royal-light text-sm transition">
               Politique de Confidentialité
             </Link>
-            <Link href="#" className="text-gray-400 hover:text-blue-400 text-sm transition">
+            <Link href="#" className="text-gray-400 hover:text-royal-light text-sm transition">
               Conditions d'Utilisation
             </Link>
           </div>
