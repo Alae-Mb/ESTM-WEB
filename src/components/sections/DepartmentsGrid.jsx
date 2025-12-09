@@ -52,8 +52,9 @@ export default function DepartmentsGrid() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {departments.map((dept, idx) => (
-            <Link key={dept.id} href={dept.href}>
-              <AnimatedCard delay={idx * 0.1}>
+            //<Link key={dept.id} href={dept.href}>
+            <AnimatedCard delay={idx * 0.1}>
+              <Link key={dept.id} href={dept.href}>
                 <div className="h-full flex flex-col justify-between">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
@@ -66,9 +67,10 @@ export default function DepartmentsGrid() {
                   <div className="mt-4 text-blue-600 dark:text-blue-400 font-semibold">
                     En savoir plus →
                   </div>
-                </div>
+              </div>
+              </Link>
               </AnimatedCard>
-            </Link>
+            //</Link>
           ))}
         </div>
       </div>
