@@ -8,7 +8,7 @@ export default function HomeHero() {
 
   const images = [
     "https://a.top4top.io/p_3624jc0rr1.jpeg",
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920&q=80",
+    "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1200",
     "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1920&q=80",
     "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&q=80",
   ];
@@ -43,7 +43,7 @@ export default function HomeHero() {
           </motion.div>
         </AnimatePresence>
 
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/60 via-blue-900/40 to-gray-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-500/30 to-yellow-400/30"></div>
         <div className="absolute inset-0 bg-black/30"></div>
       </div>
 
