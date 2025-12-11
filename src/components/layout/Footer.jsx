@@ -122,14 +122,18 @@ export default function Footer() {
                   </span>
                 </div>
               </Link>
-              <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-400">+212 5 35 46 70 85</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-400">estm@est-umi.ac.ma</span>
-              </div>
+              <Link href="/contact">
+                <div className="flex items-center gap-3">
+                  <Phone className="w-5 h-5 text-blue-400" />
+                  <span className="text-gray-400">+212 5 35 46 70 85</span>
+                </div>
+              </Link>
+              <Link href="/contact">
+                <div className="flex items-center gap-3">
+                  <Mail className="w-5 h-5 text-blue-400" />
+                  <span className="text-gray-400">estm@est-umi.ac.ma</span>
+                </div>
+              </Link>
             </div>
           </motion.div>
 
