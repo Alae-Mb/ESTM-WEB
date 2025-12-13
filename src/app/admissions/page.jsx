@@ -2,6 +2,7 @@
 
 import PageHeader from "@/components/shared/PageHeader";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function AdmissionsPage() {
   const requirements = [
@@ -13,7 +14,7 @@ export default function AdmissionsPage() {
 
   return (
     <div>
-      <PageHeader 
+      <PageHeader
         title="Admissions"
         description="Rejoignez ESTM et lancez votre carrière technologique"
       />
@@ -36,9 +37,9 @@ export default function AdmissionsPage() {
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: idx * 0.1 }}
-                    className="flex items-center p-4 bg-site dark:bg-gray-800 rounded-lg"
+                  className="flex items-center p-4 bg-site dark:bg-gray-800 rounded-lg"
                 >
-                    <div className="w-6 h-6 bg-royal rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                  <div className="w-6 h-6 bg-royal rounded-full flex items-center justify-center mr-4 flex-shrink-0">
                     <span className="text-white font-bold text-sm">✓</span>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">{req}</p>
@@ -55,11 +56,15 @@ export default function AdmissionsPage() {
                 Procédure de Candidature
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Remplissez notre formulaire de candidature en ligne avec vos informations personnelles et académiques. Vous serez contacté pour les étapes suivantes du processus d'admission.
+                Remplissez notre formulaire de candidature en ligne avec vos
+                informations personnelles et académiques. Vous serez contacté
+                pour les étapes suivantes du processus d'admission.
               </p>
-              <button className="px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold">
-                Postuler Maintenant
-              </button>
+              <Link href="/postulation">
+                <button className="px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold">
+                  Postuler Maintenant
+                </button>
+              </Link>
             </motion.div>
           </motion.div>
         </div>

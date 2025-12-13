@@ -45,7 +45,7 @@ export default function ContactPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: idx * 0.15, duration: 0.5 }}
                   viewport={{ once: true }}
-                  className="group bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-850 p-8 border border-blue-100 dark:border-gray-700 "
+                  className="group bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-850 p-8  "
                 >
                   <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 flex items-center justify-center mb-5">
                     <Icon className="w-8 h-8 text-blue-600 dark:text-blue-400 " />
@@ -71,7 +71,7 @@ export default function ContactPage() {
               viewport={{ once: true }}
               className="space-y-6"
             >
-              <div className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-850 p-8 border border-blue-100 dark:border-gray-700">
+              <div className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-850 p-8 ">
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                   <MapPin className="w-8 h-8 text-blue-600 dark:text-blue-400" />
                   Notre Campus
@@ -94,7 +94,7 @@ export default function ContactPage() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <div className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-850 p-8 border border-blue-100 dark:border-gray-700">
+              <div className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-850 p-8 ">
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 flex items-center gap-3">
                   <Mail className="w-8 h-8 text-blue-600 dark:text-blue-400" />
                   Envoyez-nous un message
@@ -107,7 +107,7 @@ export default function ContactPage() {
                     </label>
                     <input
                       type="text"
-                      className="w-full px-5 py-4 border-2 border-gray-300 dark:border-gray-600  bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:border-blue-600 dark:focus:border-blue-400 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900 transition-all duration-300"
+                      className="w-full px-5 py-4 border-2 border-gray-200 dark:border-gray-400  bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:border-blue-600 dark:focus:border-blue-400 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900 transition-all duration-300"
                       placeholder="Entrez votre nom"
                     />
                   </div>
@@ -118,7 +118,7 @@ export default function ContactPage() {
                     </label>
                     <input
                       type="email"
-                      className="w-full px-5 py-4 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:border-blue-600 dark:focus:border-blue-400 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900 transition-all duration-300"
+                      className="w-full px-5 py-4 border-2 border-gray-200 dark:border-gray-400 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:border-blue-600 dark:focus:border-blue-400 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900 transition-all duration-300"
                       placeholder="votre@email.com"
                     />
                   </div>
@@ -129,7 +129,7 @@ export default function ContactPage() {
                     </label>
                     <textarea
                       rows={6}
-                      className="w-full px-5 py-4 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:border-blue-600 dark:focus:border-blue-400 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900 transition-all duration-300 resize-none"
+                      className="w-full px-5 py-4 border-2 border-gray-200 dark:border-gray-400 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:border-blue-600 dark:focus:border-blue-400 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900 transition-all duration-300 resize-none"
                       placeholder="Écrivez votre message ici..."
                     />
                   </div>

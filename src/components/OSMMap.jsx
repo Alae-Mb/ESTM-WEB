@@ -30,6 +30,7 @@ export default function OSMMap({ center, zoom }) {
 
         <Marker position={center} />
       </MapContainer>
-    </div>
+      </div>
+      
   );
 }
