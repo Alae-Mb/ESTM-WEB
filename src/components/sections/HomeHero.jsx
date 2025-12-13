@@ -69,7 +69,7 @@ export default function HomeHero() {
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-2xl"
         >
-          Bienvenue à ESTM Meknès
+          Bienvenue à EST Meknès
         </motion.h1>
 
         <motion.p

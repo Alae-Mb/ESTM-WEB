@@ -77,34 +77,6 @@ export default function ContactPage() {
                   Notre Campus
                 </h2>
 
-<<<<<<< HEAD
-              <div className="space-y-6">
-                {contactInfo.map((info, idx) => {
-                  const Icon = info.icon;
-                  return (
-                    <motion.div
-                      key={idx}
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ delay: idx * 0.1 }}
-                      viewport={{ once: true }}
-                      className="flex items-start gap-4"
-                    >
-                      <div className="w-12 h-12 bg-[#eaf2ff] dark:bg-[#072033] rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Icon className="w-6 h-6 text-royal dark:text-royal-light" />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-gray-900 dark:text-white">
-                          {info.label}
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-400">
-                          {info.value}
-                        </p>
-                      </div>
-                    </motion.div>
-                  );
-                })}
-=======
                 {/* Your OSMMap component goes here */}
                 <div className="w-full h-[400px] overflow-hidden border-4 border-blue-100 dark:border-gray-700">
                   <OSMMap
@@ -112,7 +84,6 @@ export default function ContactPage() {
                     zoom={16}
                   />
                 </div>
->>>>>>> 5914b3e39434db9e047c45aa1ad5e8f51ec81411
               </div>
             </motion.div>
 
@@ -123,49 +94,6 @@ export default function ContactPage() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-<<<<<<< HEAD
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">
-                    Nom
-                  </label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-royal"
-                    placeholder="Votre nom"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-royal"
-                    placeholder="votre@email.com"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    rows="5"
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-royal"
-                    placeholder="Votre message"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full px-6 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold"
-                >
-                  Envoyer
-                </button>
-              </form>
-=======
               <div className="bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-850 p-8 border border-blue-100 dark:border-gray-700">
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 flex items-center gap-3">
                   <Mail className="w-8 h-8 text-blue-600 dark:text-blue-400" />
@@ -214,7 +142,6 @@ export default function ContactPage() {
                   </button>
                 </div>
               </div>
->>>>>>> 5914b3e39434db9e047c45aa1ad5e8f51ec81411
             </motion.div>
           </div>
         </div>

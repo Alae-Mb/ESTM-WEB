@@ -7,7 +7,7 @@ export default function DepartmentsPage() {
   return (
     <div>
       <PageHeader 
-        title="Nos Filières"
+        title="Nos Départements"
         description="Découvrez tous les domaines d'études proposés par ESTM"
       />
       <DepartmentsGrid />

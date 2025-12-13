@@ -19,14 +19,14 @@ const departments = [
   },
   {
     id: "TCC",
-    name: "Technologie en Chimie Chimique",
-    description: "Procédés chimiques et applications industrielles",
+    name: "Techniques de Commercialisation et de Communication",
+    description: "Techniques de commercialisation, communication et marketing professionnel",
     href: "/departments/TCC",
   },
   {
     id: "TM",
-    name: "Technologie Mécanique",
-    description: "Mécanique appliquée et conception mécanique",
+    name: "Techniques de management",
+    description: "Techniques de gestion et administration d'entreprises",
     href: "/departments/TM",
   },
 ];
