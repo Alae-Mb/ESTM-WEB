@@ -8,7 +8,7 @@ export default function CampusLifePage() {
   const activities = [
     {
       title: "Clubs Étudiants",
-      description: "Rejoignez nos nombreux clubs technologiques et culturels",
+      description: "Rejoignez des nombreux clubs technologiques et culturels fait par les etudiants de l'ESTM!",
     },
     {
       title: "Événements Sportifs",

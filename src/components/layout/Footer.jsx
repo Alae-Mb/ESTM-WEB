@@ -12,7 +12,7 @@ export default function Footer() {
       title: "Navigation",
       links: [
         { label: "Accueil", href: "/" },
-        { label: "Filières", href: "/departments" },
+        { label: "Départements", href: "/departments" },
         { label: "Admissions", href: "/admissions" },
       ],
     },

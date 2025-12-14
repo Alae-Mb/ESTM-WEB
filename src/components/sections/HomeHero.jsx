@@ -98,7 +98,7 @@ export default function HomeHero() {
             href="/departments"
             className="px-8 py-3 bg-white/95 backdrop-blur-sm text-gray-900 rounded-lg hover:bg-white transition-all font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
           >
-            Découvrir nos filières
+            Découvrir les filières
           </a>
         </motion.div>
       </div>
