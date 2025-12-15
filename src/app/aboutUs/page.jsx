@@ -33,7 +33,7 @@ function Section({ title, icon: Icon, children, reverse = false, imageSrc }) {
           <img
             src={imageSrc}
             alt={title}
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-contain object-center bg-gray-100 dark:bg-gray-800"
           />
         </div>
       </div>
@@ -171,21 +171,22 @@ export default function AboutESTMPage() {
 
         {/* Organigramme */}
         <motion.section {...fadeUp} className="py-16">
-          <div className="rounded-2xl bg-white dark:bg-gray-900 shadow-sm p-8 border-l-4 border-emerald-500">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
-              <Layers className="w-6 h-6" /> Organigramme de l'école
-            </h2>
-            <p className="text-gray-600 dark:text-gray-300">
-              L'organigramme officiel de l'EST Meknès présente la structure
-              administrative et pédagogique de l'établissement.
-            </p>
-            <a
-              href="https://www.est.umi.ac.ma/organigramme.php"
-              target="_blank"
-              className="inline-block mt-4 text-blue-600 font-medium hover:underline"
-            >
-              Consulter l'organigramme officiel →
-            </a>
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-8">
+              <div className="p-2 rounded-xl bg-blue-100 dark:bg-gray-800">
+                <Layers className="w-6 h-6 text-blue-600" />
+              </div>
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center">
+                Organigramme de l'école
+              </h2>
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-2xl bg-gray-100 dark:bg-gray-800">
+              <img
+                src="/images/compus/Gemini_Generated_Image_kruzakkruzakkruz.png"
+                alt="Organigramme de l'EST Meknès"
+                className="w-full h-auto object-contain"
+              />
+            </div>
           </div>
         </motion.section>
 
