@@ -2,7 +2,7 @@ import "@/styles/globale.css";
 import MainLayout from "@/components/layout/MainLayout";
 
 export const metadata = {
-  title: "ESTM Meknès",
+  title: "EST Meknès",
   description: "Site officiel ESTM (Projet Front-End)",
 };
 

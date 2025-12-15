@@ -1,7 +1,7 @@
 "use client";
 
 import PageHeader from "@/components/shared/PageHeader";
-c
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function AdmissionsPage() {

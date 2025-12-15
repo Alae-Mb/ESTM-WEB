@@ -14,7 +14,7 @@ export default function Navbar() {
     { href: "/departments", label: "Départements" },
     { href: "/admissions", label: "Admissions" },
     { href: "/campus-life", label: "Vie estudiantine" },
-    { href: "/gallery", label: "Galerie" },
+    { href: "/aboutUs", label: "About ESTM" },
     { href: "/contact", label: "Contact" },
   ];
 
