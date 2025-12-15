@@ -13,7 +13,7 @@ export default function Navbar() {
     { href: "/", label: "Accueil" },
     { href: "/departments", label: "Départements" },
     { href: "/admissions", label: "Admissions" },
-    { href: "/campus-life", label: "Vie étudiante" },
+    { href: "/campus-life", label: "Vie estudiantine" },
     { href: "/gallery", label: "Galerie" },
     { href: "/contact", label: "Contact" },
   ];

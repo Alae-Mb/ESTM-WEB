@@ -1,7 +1,7 @@
 "use client";
 
 import PageHeader from "@/components/shared/PageHeader";
-import { motion } from "framer-motion";
+c
 import Link from "next/link";
 
 export default function AdmissionsPage() {
@@ -60,7 +60,7 @@ export default function AdmissionsPage() {
                 informations personnelles et académiques. Vous serez contacté
                 pour les étapes suivantes du processus d'admission.
               </p>
-              <Link href="/postulation">
+              <Link href="/admissions/postulation">
                 <button className="px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold">
                   Postuler Maintenant
                 </button>
