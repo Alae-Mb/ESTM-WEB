@@ -94,7 +94,7 @@ export default function AboutESTMPage() {
           imageSrc="/images/compus/Screenshot 2025-12-15 201002.png"
         >
           <p>
-            Créée dans le cadre de la réforme de l'enseignement supérieur au
+            Crée dans le cadre de la réforme de l'enseignement supérieur au
             Maroc, l'EST Meknès s'inscrit dans une dynamique de formation
             professionnalisante basée sur l'alternance entre enseignements
             théoriques et pratiques.

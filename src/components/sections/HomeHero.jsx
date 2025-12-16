@@ -90,13 +90,13 @@ export default function HomeHero() {
         >
           <a
             href="/admissions"
-            className="px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold"
+            className="px-8 py-3 bg-royal text-white rounded-lg hover:bg-primary-dark transition font-semibold hover:scale-105 duration-300"
           >
             Candidatures
           </a>
           <a
             href="/departments"
-            className="px-8 py-3 bg-white/95 backdrop-blur-sm text-gray-900 rounded-lg hover:bg-white transition-all font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
+            className="px-8 py-3 bg-white/95 backdrop-blur-sm text-gray-900 rounded-lg hover:bg-white transition-all font-semibold transform hover:scale-105 duration-300"
           >
             Découvrir les filières
           </a>

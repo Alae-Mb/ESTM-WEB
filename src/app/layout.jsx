@@ -1,9 +1,12 @@
 import "@/styles/globale.css";
 import MainLayout from "@/components/layout/MainLayout";
 
+
 export const metadata = {
   title: "EST Meknès",
-  description: "Site officiel ESTM (Projet Front-End)",
+  icons: {
+    icon: "/icons/icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
