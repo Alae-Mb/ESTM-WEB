@@ -19,7 +19,7 @@ export default function Footer() {
     {
       title: "Ressources",
       links: [
-        { label: "Galerie", href: "/gallery" },
+        { label: "Galerie", href: "/aboutUs" },
         { label: "Enseignants", href: "/teachers" },
         { label: "Vie étudiante", href: "/campus-life" },
       ],
@@ -27,9 +27,9 @@ export default function Footer() {
     {
       title: "Contact",
       links: [
-        { label: "Nous contacter", href: "/contact" },
-        { label: "FAQ", href: "#" },
-        { label: "Support", href: "#" },
+        { label: "Contactez-nous", href: "/contact" },
+        { label: "Support", href: "/contact" },
+        { label: "Plus d'informations", href: "https://www.umi.ac.ma/" },
       ],
     },
   ];
@@ -79,7 +79,6 @@ export default function Footer() {
               </p>
             </motion.div>
 
-            {/* Links Sections */}
             {footerLinks.map((section, idx) => (
               <motion.div
                 key={idx}
@@ -105,7 +104,6 @@ export default function Footer() {
             ))}
           </div>
 
-          {/* Contact Info */}
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -137,7 +135,6 @@ export default function Footer() {
             </div>
           </motion.div>
 
-          {/* Social Links */}
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -164,7 +161,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

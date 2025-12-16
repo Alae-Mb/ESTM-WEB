@@ -81,7 +81,7 @@ export default function TeachersPage() {
 
   return (
     <div>
-      <PageHeader 
+      <PageHeader
         title="Nos Enseignants"
         description="Une équipe d'experts dédiés à votre réussite"
       />
@@ -96,7 +96,8 @@ export default function TeachersPage() {
             className="text-center mb-12"
           >
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Nos professeurs sont des experts du domaine avec une expérience industrielle reconnue
+              Nos professeurs sont des experts du domaine avec une expérience
+              industrielle reconnue
             </p>
           </motion.div>
 
@@ -104,7 +105,22 @@ export default function TeachersPage() {
             {teachers.map((teacher, idx) => (
               <AnimatedCard key={teacher.id} delay={idx * 0.1}>
                 <div className="text-center">
-                  <div className="w-20 h-20 bg-gradient-to-br from-[#2563EB] to-[#0A2540] rounded-full mx-auto mb-4" />
+                  <div className="w-20 h-20 bg-gradient-to-br from-[#2563EB] to-[#0A2540] rounded-full mx-auto mb-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="w-20 h-20 rounded-full mx-auto mb-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      />
+                    </svg>
+                  </div>
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white">
                     {teacher.name}
                   </h3>
