@@ -37,7 +37,7 @@ export default function AdmissionsPage() {
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: idx * 0.1 }}
-                  className="flex items-center p-4 bg-site dark:bg-gray-800 rounded-lg"
+                  className="flex items-center p-4 bg-gray-100 dark:bg-gray-800 rounded-lg"
                 >
                   <div className="w-6 h-6 bg-royal rounded-full flex items-center justify-center mr-4 flex-shrink-0">
                     <span className="text-white font-bold text-sm">✓</span>

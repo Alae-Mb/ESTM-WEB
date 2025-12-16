@@ -33,10 +33,8 @@ const departments = [
 
 export default function DepartmentsGrid() {
   return (
-    <section className=" bg-white dark:bg-gray-900">
-      <div className="max-w-7xl mx-auto pb-20">
-        
-
+    <section className=" bg-white dark:bg-gray-900 ">
+      <div className="max-w-7xl mx-auto pb-20 pt-10">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {departments.map((dept, idx) => (
             //<Link key={dept.id} href={dept.href}>
@@ -54,9 +52,9 @@ export default function DepartmentsGrid() {
                   <div className="mt-4 text-royal dark:text-royal-light font-semibold">
                     En savoir plus →
                   </div>
-              </div>
+                </div>
               </Link>
-              </AnimatedCard>
+            </AnimatedCard>
             //</Link>
           ))}
         </div>

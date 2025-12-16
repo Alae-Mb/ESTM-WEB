@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <div className="w-full">
       <HomeHero />
-      <div className="pt-20 px-6">
+      <div className="pt-20 px-6 dark:bg-gray-900">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-center mb-12 "
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Nos Départements
