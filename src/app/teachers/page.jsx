@@ -4,6 +4,7 @@ import PageHeader from "@/components/shared/PageHeader";
 import { motion } from "framer-motion";
 import AnimatedCard from "@/components/shared/AnimatedCard";
 
+
 export default function TeachersPage() {
   const teachers = [
     // TCC Department
@@ -105,14 +106,14 @@ export default function TeachersPage() {
             {teachers.map((teacher, idx) => (
               <AnimatedCard key={teacher.id} delay={idx * 0.1}>
                 <div className="text-center">
-                  <div className="w-20 h-20 bg-gradient-to-br from-[#2563EB] to-[#0A2540] rounded-full mx-auto mb-4">
+                  <div className="w-20 h-20 bg-gray-50 dark:bg-gradient-to-br from-[#2563EB] to-[#0A2540] rounded-full mx-auto mb-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      className="w-20 h-20 rounded-full mx-auto mb-4"
+                      className="w-20 h-20 text-blue-500 dark:text-black rounded-full mx-auto mb-4"
                     >
                       <path
                         stroke-linecap="round"
@@ -121,7 +122,7 @@ export default function TeachersPage() {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900 dark:text-white">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-gray-300">
                     {teacher.name}
                   </h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
